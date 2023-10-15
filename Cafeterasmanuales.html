@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes con Nombres y Precios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+          body {
+            background-image: url('/imagenes/png\ fon2.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1{
+            font-family: 'Young Serif', serif;
+            font-size: 30px;
+        }
+        .product-image {
+    width: 200px; /* El ancho deseado para todas las imágenes */
+    height: 200px; /* La altura deseada para todas las imágenes */
+}
+    </style>
+</head>
+<body>
+    <header>
+       
+        <nav class="navbar bg-body-tertiary" style="background-image: url('/imagenes/marron\ .jpg'); background-size: cover; background-position: center; height: 120px;"> 
+            <div class="container-fluid ms-3 d-flex justify-content-center">
+                <a class="navbar-brand" href="#">
+                </a>
+            </div>
+        </nav>
+ 
+    
+      
+        <div class="container-fluid  m-0 p-0">
+            <nav class="navbar navbar-expand-lg  text-bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">Coffe Roasters</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="SobreNosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">
+                                <a class="dropdown-item dropdown-title" href="CafeterasElectricas.html">
+                                    <h5>Cafeteras Eléctricas</h5>
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Para Hogar</a></li>
+                            <li class="dropdown-header">
+                                <a class="dropdown-item dropdown-title" href="Cafeterasmanuales.html">
+                                    <h5>Cafeteras Manuales</h5>
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Aeropress</a></li>
+                            <li><a class="dropdown-item" href="#">Chemex</a></li>
+                            <li><a class="dropdown-item" href="#">Cold Brew</a></li>
+                            <li><a class="dropdown-item" href="#">Delter</a></li>
+                            <li><a class="dropdown-item" href="#">Drippers</a></li>
+                            <li><a class="dropdown-item" href="#">Italiana Moka</a></li>
+                            <li><a class="dropdown-item" href="#">Prensa Francesa</a></li>
+                            <li><a class="dropdown-item" href="#">Sifón</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sucursales
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://www.google.com/maps/place/Croque+Madame/@-34.5826566,-58.4007573,15z/data=!4m2!3m1!1s0x0:0xd3aee0b330eb9e1f?sa=X&ved=2ahUKEwjR8_iF_vGBAxW7H7kGHXD5DaEQ_BJ6BAhfEAA&ved=2ahUKEwjR8_iF_vGBAxW7H7kGHXD5DaEQ_BJ6BAh5EAg">Palermo</a></li>
+                          <li><a class="dropdown-item" href="https://www.google.com/maps/place/Croque+Madame+Palacio+Paz/@-34.5958366,-58.3775062,15z/data=!4m2!3m1!1s0x0:0x34cf1e7be3fc71ba?sa=X&ved=2ahUKEwjLr7LR_vGBAxVRqJUCHTEYDBsQ_BJ6BAhjEAA&ved=2ahUKEwjLr7LR_vGBAxVRqJUCHTEYDBsQ_BJ6BAh5EAg ">Retiro</a></li>
+
+                          <li><a class="dropdown-item" href="https://www.google.com/maps/place/Croque+Madame+Puerto+Madero/@-34.5995382,-58.3650168,15z/data=!4m2!3m1!1s0x0:0xe7fbff616ada93f6?sa=X&ved=2ahUKEwjC2c2r_vGBAxXZGbkGHWzsAVcQ_BJ6BAhaEAA&ved=2ahUKEwjC2c2r_vGBAxXZGbkGHWzsAVcQ_BJ6BAhnEAg">Puerto Madero</a></li>
+                          <li><a class="dropdown-item" href="https://www.google.com/maps/place/Croque+Madame+Colegio+de+Escribanos/@-34.5914094,-58.3916779,15z/data=!4m2!3m1!1s0x0:0x3a743741f92dcd6b?sa=X&ved=2ahUKEwiVzNzw_vGBAxWvGrkGHTmdD5YQ_BJ6BAhCEAA&ved=2ahUKEwiVzNzw_vGBAxWvGrkGHTmdD5YQ_BJ6BAhNEAg">Colegiales</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="https://www.google.com/search?sca_esv=573067372&sxsrf=AM9HkKkaqt0Ud2RSV2zg57r9IYnQq44UEg:1697164493098&q=croque+madame+recoleta&npsic=0&rflfq=1&rldoc=1&rllag=-34589246,-58389131,1292&tbm=lcl&sa=X&ved=2ahUKEwjf5vG1_vGBAxWNQ7gEHbdwAbIQtgN6BAgREAE&biw=1164&bih=528&dpr=1.1#rlfi=hd:;si:;mv:[[-34.581865799999996,-58.375709099999995],[-34.596627399999996,-58.4092542]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4">Prximamente</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-custom-outline text-white" type="submit">Buscar</button>
+                    </form>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+<div class="container mt-5">
+    <h1>Cafeteras Manuales</h1>
+    <div class="row mt-3">
+        <div class="col-4">
+            <div class="card h-100">
+                <img src="/imagenes/manual.jpg" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <p class="card-text">Cafetera Monix Vitro 9 Tazas Manual Negra Italiana</p>
+                    <p class="card-text">Precio: $27,999.00  <s> $37,999.00 </s></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card h-100">
+                <img src="/imagenes/manual5.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <p class="card-text">Classic Italian Style Double Tube Moka Pot Coffee Maker</p>
+                    <p class="card-text">Precio: $59,000 <s> $71,161</s></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card h-100">
+                <img src="/imagenes/manual2.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <p class="card-text">Cafetera Hudson Émbolo F-228-1000</p>
+                    <p class="card-text">Precio: $13,705.60 <s>$13,705.60</s></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-4">
+            <div class="card h-60">
+                <img src="/imagenes/manual6.jpg" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <p class="card-text">JU FU Café Hecho a Mano Cafetera Manual</p>
+                    <p class="card-text">Precio:$71,161 <s> $71,161</s></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card h-60">
+                <img src="/imagenes/manual5.jpg" class="card-img-top" alt="Producto 5">
+                <div class="card-body">
+                    <p class="card-text">unplugged</p>
+                    <p class="card-text">Precio: $859,161 <s> $1,116,908</s></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card h-60">
+                <img src="/imagenes/manual6.jpg" class="card-img-top" alt="Producto 6">
+                <div class="card-body">
+                    <p class="card-text">Moka Pot with Thermostat</p>
+                    <p class="card-text">Precio: $291,498 <s> $551,498</s></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <footer>
+
+        <div class="container-fluid text-bg-dark p-3 mt-5">
+            
+                <div class="row">
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <a href="#">
+                            <img src="imagenes/granocafe.svg" alt="GranoCafe">
+                        </a>
+                        <b>HAND ROASTED</b>
+                        <p>Roasted Monday-Friday</p>
+                    </div>
+                    
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <a href="#">
+                            <img src="imagenes/bolsa.svg" alt="BolsaCafe">
+                        </a>
+                        <b>SEALED FOR FRESHNESS</b>
+                        <p>Sealed immediately after roast</p>
+                    </div>
+                    
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <a href="#">
+                            <img src="imagenes/camion.svg" alt="Camion">
+                        </a>
+                        <b>DELIVERED FRESH TO YOU</b>
+                        <p>Our beans are hand roasted and shipped directly to your door from our roastery</p>
+                    </div>
+
+
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <a href="https://www.instagram.com/miloconpapas/">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#b9975b}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                        <b>SOCIAL MEDIA</b>
+                        <p>Check us out!</p>
+                    </div>
+                    
+                
+            </div>
+
+        </footer>
+
+         
+            
+    </div>
+    
+
+</body>
+</html>
